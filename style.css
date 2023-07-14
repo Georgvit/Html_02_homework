@@ -1,13 +1,90 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
-.header {}
+.main {
+    width: 1920px;
+    height: 700px;
+    flex-shrink: 0;
+    background: #FFF;
+}
 
-.headerLogo {}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 40px;
+    flex-shrink: 0;
+}
 
-.headerLink {}
+.headerLogo {
+    float: right;
+    width: 137px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.headerLink {
+    width: 687px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.imglogo {
+    width: 35px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+#grow {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#be {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#home {
+    color: #F25822;
+    font-family: Gilroy-SemiBold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hLink {
+    width: 533px;
+    height: 17px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hButton {
+    width: 120px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #F25822;
+}
 
 .content {}
 
@@ -21,4 +98,10 @@
 
 .headerInfoLink {}
 
-.link {}
+.link {
+    display: flex;
+    width: 1920px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
