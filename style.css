@@ -8,7 +8,9 @@
     display: flex;
     width: 1920px;
     height: 40px;
-    flex-shrink: 0;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .headerLogo {
@@ -78,6 +80,8 @@
 
 .content {
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
 
 .headerPicture {
@@ -166,4 +170,6 @@
     display: flex;
     width: 1920px;
     padding-bottom: 0px;
+    flex-wrap: nowrap;
+    justify-content: space-around;
 }
