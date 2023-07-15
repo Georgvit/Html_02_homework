@@ -4,24 +4,14 @@
     text-decoration: none;
 }
 
-.main {
-    width: 1920px;
-    height: 700px;
-    flex-shrink: 0;
-    background: #FFF;
-}
-
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 1920px;
     height: 40px;
     flex-shrink: 0;
 }
 
 .headerLogo {
-    float: right;
     width: 137px;
     height: 40px;
     flex-shrink: 0;
@@ -86,22 +76,94 @@
     background: #F25822;
 }
 
-.content {}
+.content {
+    display: flex;
+}
 
-.headerPicture {}
+.headerPicture {
+    width: 544.814px;
+    height: 374.843px;
+    flex-shrink: 0;
+}
 
-.headerInfo {}
+.headerInfo {
+    width: 543px;
+    height: 374px;
+    flex-shrink: 0;
+}
 
-.headerInfoTitle {}
+.headerInfoTitle {
+    display: grid;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
-.headerInfoText {}
+#titleImg {
+    position: absolute;
+    width: 314px;
+    height: 76px;
+    flex-shrink: 0;
+}
 
-.headerInfoLink {}
+.headerInfoText {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.headerInfoLink {
+    display: flex;
+    width: 302px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.infoButton {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+}
+
+.hInfoLink {
+    display: flex;
+}
+
+#textButton {
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#playImg {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+#playText {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .link {
     display: flex;
     width: 1920px;
     padding-bottom: 0px;
-    justify-content: center;
-    align-items: center;
 }
