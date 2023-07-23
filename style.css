@@ -1,14 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     text-decoration: none;
 }
 
 body {
-    scroll-behavior: smooth;
-    text-rendering: optimizeSpeed;
-    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -16,36 +14,40 @@ img {
 }
 
 .container {
-    width: 1146px;
-    margin: 0 auto;
+    width: 1920px;
+    margin: 0;
 }
 
 header {
-    margin-bottom: 82.71px;
-    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 9%;
+    margin-top: 2%;
 }
 
-.header {
+.headerone {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 2%;
 }
 
 .navigation {
     width: 826px;
     display: flex;
     justify-content: flex-end;
-    gap: 30px;
+    gap: 5%;
 }
 
 .link {
+    font-family: 'Inter', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #000000;
 }
 
 .colorText {
+    font-family: 'Inter', sans-serif;
     color: #F25822;
 }
 
@@ -72,13 +74,15 @@ header {
 }
 
 main {
-    margin-bottom: 162px;
-    margin-top: 89px;
+    background: #FFFFFF;
+    margin-left: 9%;
+    margin-top: 3%;
 }
 
 .myCont {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 5%;
 }
 
 .myContText {
@@ -89,17 +93,17 @@ main {
 }
 
 .imgCont {
-    width: 610.735px;
-    height: 372.904px;
-    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .imgRight {
-    width: 544px;
-    height: 374px;
+    width: 45%;
+    height: 28%;
 }
 
 .title {
+    font-family: 'Inter', sans-serif;
     font-size: 60px;
     line-height: 70px;
     color: #000000;
@@ -115,6 +119,7 @@ main {
 }
 
 .text {
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 23px;
     color: #888888;
@@ -130,6 +135,7 @@ main {
 }
 
 .btn {
+    font-family: 'Inter', sans-serif;
     width: 140px;
     height: 50px;
     background: #F25822;
@@ -141,6 +147,7 @@ main {
 }
 
 .btn1 {
+    font-family: 'Inter', sans-serif;
     width: 140px;
     height: 50px;
     border-radius: 50px;
@@ -156,8 +163,201 @@ main {
 
 .logosLink {
     display: flex;
-    width: 1170px;
-    justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    width: 46%;
+    justify-content: flex-start;
+    margin-top: 2%;
+    gap: 3.5%;
+}
+
+.main {
+    width: 1920px;
+    height: 1410px;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    gap: 1px;
+    background: #FFF;
+}
+
+.headertwo {
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    grid-template-rows: 10% 80% 1%;
+    margin-left: 13%;
+    width: 82%;
+    height: 80%;
+    gap: 4%;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: 1% 14% 14% 14% 14% 14% 14%;
+    grid-template-rows: 8% 23% 60% 10%;
+    margin-left: 10%;
+    width: 80%;
+    height: 75%;
+    background: #FAFAFA;
+}
+
+.infobox1 {
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    width: auto;
+    height: auto;
+    gap: 20px;
+    padding: 8%;
+}
+
+.infobox2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width: auto;
+    height: auto;
+    gap: 20px;
+    padding: 5%;
+    background: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.15);
+}
+
+.infobox3 {
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    width: auto;
+    height: auto;
+    gap: 20px;
+    padding: 5%;
+}
+
+#infoboxH1 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#infoboxP1 {
+    color: #666;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+#infoboxP2 {
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.contBox1 {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    text-align: center;
+    width: 75%;
+    height: auto;
+}
+
+.contBox2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    text-align: center;
+    width: 85%;
+    height: 100%;
+    background: #FFF;
+    gap: 4%;
+    padding: 5%;
+}
+
+.contBox3 {
+    display: grid;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    text-align: center;
+    width: 85%;
+    height: 100%;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.15);
+    gap: 4%;
+    padding: 5%;
+}
+
+.contBox4 {
+    display: grid;
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    text-align: center;
+    width: 85%;
+    height: 100%;
+    background: #FFF;
+    gap: 4%;
+    padding: 5%;
+}
+
+#contboxH1 {
+    justify-content: center;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#contboxH2 {
+    justify-content: center;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#contboxP1 {
+    color: #666;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.but {
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    background: #F25822;
+    border-radius: 50px;
+    border: #F25822;
+}
+
+.buttonbox {
+    justify-content: center;
+}
+
+.imgbox {
+    justify-content: center;
+    width: 100%;
 }
